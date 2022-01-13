@@ -1,5 +1,5 @@
 body {
-  
+  font-family: sans-serif;
 }
 .parent-container {
   display: flex;
@@ -117,6 +117,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  padding-left: 0px;
 }
 .social-media ul li {
   list-style: none;
