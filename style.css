@@ -1,5 +1,5 @@
 body {
-  font-family: poppins;
+  font-family: "Poppins";
 }
 
 .parent-container {
@@ -63,8 +63,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* padding-top: 114px;
-  padding-right: 24px; */
   position: absolute;
   width: 375px;
   height: 640px;
@@ -79,11 +77,10 @@ body {
   height: 150px;
   width: 327px;
   font-size: 40px;
-  font-weight: bold;
   line-height: 52px;
   font-weight: 700;
   font-style: normal;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .description {
@@ -107,7 +104,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   margin-left: 24px;
 }
 
