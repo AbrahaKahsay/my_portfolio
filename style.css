@@ -113,24 +113,38 @@ body {
   text-decoration: none;
 }
 
-.social-media2 {
+.social-media {
   margin-left: 24px;
   width: 170.17px;
   height: 20px;
 }
 
-.social-media2 ul {
+.tonic li {
+  list-style: none;
+}
+
+.about-me a {
+  height: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.social-media ul {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding-left: 0.01px;
 }
 
-.social-media2 ul li {
+.social-media ul li {
   list-style: none;
 }
 
-.social-media2 ul li a {
+.social-media ul li a {
   color: #505f79;
 }
 
@@ -179,10 +193,6 @@ h3 {
 .tonic {
   padding-left: 0;
   margin-top: 12px;
-}
-
-.tonic li {
-  list-style: none;
 }
 
 .headline1 {
@@ -277,7 +287,7 @@ button {
   position: static;
   margin-top: 88px;
   padding-top: 114px;
-  }
+}
 
 .about-me h2 {
   height: 101px;
@@ -299,16 +309,6 @@ button {
   line-height: 24px;
   text-align: left;
   color: #344563;
-}
-
-.about-me a {
-  height: 24px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  color: #7f8cff;
-  text-decoration: none;
 }
 
 .social-media2 {
