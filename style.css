@@ -162,7 +162,7 @@ body {
   justify-content: space-between;
   height: 32px;
   width: 236px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 h3 {
@@ -177,9 +177,10 @@ h3 {
 }
 
 .tonic {
-  padding-left: 0px;
+  padding-left: 0;
   margin-top: 12px;
 }
+
 .tonic li {
   list-style: none;
 }
@@ -188,6 +189,7 @@ h3 {
   height: 80px;
   width: 295px;
 }
+
 .headline2 {
   height: 124px;
   width: 295px;
@@ -246,6 +248,7 @@ p {
   text-align: left;
   color: #344563;
 }
+
 button {
   height: 48px;
   width: 124px;
@@ -274,7 +277,7 @@ button {
   position: static;
   margin-top: 88px;
   padding-top: 114px;
-  margin: 0;
+  margin-top: 0px;
 }
 
 .about-me h2 {
