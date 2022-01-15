@@ -4,9 +4,10 @@ body {
 
 .parent-container {
   display: flex;
-  position: absolute;
+  position: static;
   height: 718px;
   width: 375px;
+  flex-direction: column;
 }
 
 .image {
@@ -133,4 +134,131 @@ body {
 
 .social-media ul li a {
   color: #505f79;
+}
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+
+.card {
+  display: flex;
+  width: 327px;
+  flex-direction: column;
+  position: static;
+  border-radius: 16px;
+  margin-top: 88px;
+  padding: 16px;
+}
+
+.image1 {
+  height: 220px;
+  width: 295px;
+  border-radius: 8px;
+}
+
+.card-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32px;
+  width: 236px;
+  padding-left: 0px;
+}
+
+h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.tonic {
+  padding-left: 0px;
+  margin-top: 12px;
+}
+.tonic li {
+  list-style: none;
+}
+
+.headline {
+  height: 80px;
+  width: 295px;
+}
+
+.header1 h1 {
+  height: 36px;
+  width: 295px;
+}
+
+.canopy1 {
+  list-style: none;
+  height: 16px;
+  width: 55px;
+  left: 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+.canopy {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  color: #7a869a;
+}
+.cardsub {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
+  justify-self: left;
+  height: 24px;
+  width: 203px;
+}
+
+.list {
+  box-sizing: border-box;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  color: #6070ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+p {
+  height: 76px;
+  width: 295px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+button {
+  height: 48px;
+  width: 124px;
+  box-sizing: border-box;
+  font-size: 17px;
+  color: #396df2;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  margin-top: 12px;
 }
