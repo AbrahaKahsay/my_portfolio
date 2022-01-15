@@ -113,24 +113,24 @@ body {
   text-decoration: none;
 }
 
-.social-media {
+.social-media2 {
   margin-left: 24px;
   width: 170.17px;
   height: 20px;
 }
 
-.social-media ul {
+.social-media2 ul {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding-left: 0.01px;
 }
 
-.social-media ul li {
+.social-media2 ul li {
   list-style: none;
 }
 
-.social-media ul li a {
+.social-media2 ul li a {
   color: #505f79;
 }
 
@@ -277,7 +277,7 @@ button {
   position: static;
   margin-top: 88px;
   padding-top: 114px;
-}
+  }
 
 .about-me h2 {
   height: 101px;
