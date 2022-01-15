@@ -114,9 +114,7 @@ body {
 }
 
 .social-media {
-  position: absolute;
   margin-left: 24px;
-  margin-top: 470px;
   width: 170.17px;
   height: 20px;
 }
@@ -186,13 +184,12 @@ h3 {
   list-style: none;
 }
 
-.headline {
+.headline1 {
   height: 80px;
   width: 295px;
 }
-
-.header1 h1 {
-  height: 36px;
+.headline2 {
+  height: 124px;
   width: 295px;
 }
 
@@ -215,6 +212,7 @@ h3 {
   line-height: 16px;
   color: #7a869a;
 }
+
 .cardsub {
   list-style: none;
   display: flex;
@@ -261,4 +259,110 @@ button {
   padding: 12px;
   border: 1px solid #6070ff;
   margin-top: 12px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+
+.about-me {
+  display: flex;
+  width: 375px;
+  flex-direction: column;
+  position: static;
+  margin-top: 88px;
+  padding-top: 114px;
+  margin: 0;
+}
+
+.about-me h2 {
+  height: 101px;
+  width: 327px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.about-me p {
+  height: 144px;
+  width: 327px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me a {
+  height: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.social-media2 {
+  width: 200px;
+  height: 40px;
+}
+
+.social-media2 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.social-media2 ul li {
+  list-style: none;
+}
+
+.social-media2 ul li a {
+  color: #505f79;
+}
+
+.about-me button {
+  height: 48px;
+  width: 162px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.about-me ul {
+  padding-left: 0px;
+}
+.about-me ul li {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 12px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  list-style-type: none;
+  width: 327px;
+  padding: 0px;
+}
+
+.langguages ul li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 66.7155990600586px;
+  width: 303px;
+  left: 12px;
+  top: 12px;
 }
