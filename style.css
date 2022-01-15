@@ -5,7 +5,6 @@ body {
 .parent-container {
   display: flex;
   position: static;
-  height: 718px;
   width: 375px;
   flex-direction: column;
 }
@@ -152,10 +151,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 54px;
+  width: fit-content;
+  justify-content: center;
 }
 
 .card {
-  display: flex;
   width: 327px;
   flex-direction: column;
   position: static;
@@ -278,6 +278,9 @@ button {
   display: flex;
   flex-direction: column;
   margin-top: 54px;
+  width: fit-content;
+  width: 375px;
+  padding: 24px;
 }
 
 .about-me {
@@ -285,7 +288,6 @@ button {
   width: 375px;
   flex-direction: column;
   position: static;
-  margin-top: 88px;
   padding-top: 114px;
 }
 
@@ -331,41 +333,55 @@ button {
   color: #505f79;
 }
 
-.about-me button {
+.resume {
+  width: fit-content;
+}
+
+.languages {
+  display: grid;
+  grid-column: auto;
+  padding-top: 24px;
+  padding-left: 0px;
+}
+
+.language-type img {
+  width: 48px;
   height: 48px;
-  width: 162px;
-  font-size: 17px;
-  font-style: normal;
+  margin-left: 10px;
+}
+
+.languages li {
   font-weight: 500;
-  line-height: 24px;
-  box-sizing: border-box;
-}
-
-.about-me ul {
-  padding-left: 0;
-}
-
-.about-me ul li {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  margin-top: 12px;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 24px;
-  text-align: left;
+  color: #000;
   list-style-type: none;
-  width: 327px;
-  padding: 0;
 }
 
-.langguages ul li {
+.language-type {
   display: flex;
-  flex-direction: column;
-  list-style-type: none;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  color: #253858;
   height: 66.7155990600586px;
-  width: 303px;
-  left: 12px;
-  top: 12px;
+  width: 330px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.language-type p {
+  align-items: center;
+  margin-left: 10px;
+  height: 12px;
+}
+
+hr {
+  border: 1px solid #dfe1e6;
+  width: 327px;
+  margin-top: 30px;
+  margin-left: 0;
 }
