@@ -277,7 +277,6 @@ button {
   position: static;
   margin-top: 88px;
   padding-top: 114px;
-  margin-top: 0px;
 }
 
 .about-me h2 {
@@ -343,8 +342,9 @@ button {
 }
 
 .about-me ul {
-  padding-left: 0px;
+  padding-left: 0;
 }
+
 .about-me ul li {
   display: flex;
   flex-direction: column;
@@ -357,7 +357,7 @@ button {
   text-align: left;
   list-style-type: none;
   width: 327px;
-  padding: 0px;
+  padding: 0;
 }
 
 .langguages ul li {
