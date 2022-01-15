@@ -139,6 +139,14 @@ body {
   padding-left: 0.01px;
 }
 
+.languages li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  list-style-type: none;
+}
+
 .social-media ul li {
   list-style: none;
 }
@@ -341,21 +349,13 @@ button {
   display: grid;
   grid-column: auto;
   padding-top: 24px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .language-type img {
   width: 48px;
   height: 48px;
   margin-left: 10px;
-}
-
-.languages li {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-  list-style-type: none;
 }
 
 .language-type {
