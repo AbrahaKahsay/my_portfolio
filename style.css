@@ -1,12 +1,15 @@
 body {
   font-family: poppins, sans-serif;
+  background-color: #e5e5e5;
 }
 
 .parent-container {
+  display: grid;
   display: flex;
   position: static;
   width: 375px;
   flex-direction: column;
+  background-color: #ffffff;
 }
 
 .image {
@@ -156,20 +159,25 @@ body {
 }
 
 .works-section {
-  display: flex;
+  display: grid;
   flex-direction: column;
   margin-top: 54px;
-  width: fit-content;
-  justify-content: center;
+  background-color: #e5e5e5;
 }
 
 .card {
-  width: 327px;
+  width: 295px;
   flex-direction: column;
   position: static;
   border-radius: 16px;
-  margin-top: 88px;
+  margin-top: 44px;
   padding: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  border-color: 2px solid #e5e5e5;
+  background-color: #ffffff;
+  justify-content: space-around;
 }
 
 .image1 {
@@ -280,23 +288,31 @@ button {
   padding: 12px;
   border: 1px solid #6070ff;
   margin-top: 12px;
+  background-color: #ffffff;
 }
 
 .personal-info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   margin-top: 54px;
-  width: fit-content;
-  width: 375px;
-  padding: 24px;
+  width: 349px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #ffffff;
 }
 
 .about-me {
   display: flex;
-  width: 375px;
+  width: 347px;
   flex-direction: column;
   position: static;
   padding-top: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  border-color: 2px solid #e5e5e5;
+  border-radius: 16px;
 }
 
 .about-me h2 {
@@ -343,6 +359,7 @@ button {
 
 .resume {
   width: fit-content;
+  background-color: #ffffff;
 }
 
 .languages {
