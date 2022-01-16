@@ -9,7 +9,7 @@ body {
   position: static;
   width: 375px;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .image {
@@ -175,8 +175,8 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 24px;
-  border-color: 2px solid #e5e5e5;
-  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
   justify-content: space-around;
 }
 
@@ -288,7 +288,7 @@ button {
   padding: 12px;
   border: 1px solid #6070ff;
   margin-top: 12px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .personal-info {
@@ -297,7 +297,7 @@ button {
   width: 349px;
   margin-left: 0;
   margin-right: 0;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .about-me {
@@ -305,13 +305,12 @@ button {
   width: 347px;
   flex-direction: column;
   position: static;
-  padding-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #ffffff;
-  border-color: 2px solid #e5e5e5;
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
   border-radius: 16px;
 }
 
@@ -359,7 +358,7 @@ button {
 
 .resume {
   width: fit-content;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .languages {
