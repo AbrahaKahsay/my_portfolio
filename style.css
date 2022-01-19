@@ -431,7 +431,7 @@ hr {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   position: static;
 }
 
@@ -451,7 +451,6 @@ hr {
   height: 18px;
   width: 273px;
   margin: 0 24px 0 24px;
-  font-family: Poppins;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -499,7 +498,7 @@ hr {
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  padding: 12px 0 12px 0px;
+  padding: 12px 0 12px 0;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   margin: 22px 211px 45px 24px;
